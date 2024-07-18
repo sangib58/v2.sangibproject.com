@@ -122,7 +122,7 @@
                                     By incorporating these features, a blockchain-based certificate verification system ensures secure, reliable, and efficient management of digital certificates, providing significant benefits over traditional verification methods.
                                 </v-card-text>
                             </v-card>                      
-                            <div class="my-6 projectDetail"><span class="mr-2">Ethereum</span><span class="mx-2">Solidity</span><span class="mx-2">Node.Js</span><span class="mx-2">Express.Js</span><span class="ml-2">Web3</span></div>                     
+                            <div class="my-6 projectDetail"><span class="mr-2">Ethereum</span><span class="mx-2">Solidity</span><span class="mx-2">Node.Js</span><span class="mx-2">Express.Js</span></div>                     
                         </v-sheet>
                     </v-col>
                     <v-col cols="12" md="6">

@@ -1,85 +1,93 @@
 <template>
     <section id="experience">
         <v-sheet class="d-flex my-16"> 
-            <div class="my-16">              
-                <div class="d-flex justify-center mb-14">
-                    <div>
-                        <span class="numberStyle">02.</span> <span class="headerStyle text-md-h4 text-h4">Where I’ve Worked</span>
-                    </div>
-                    <div class="horizontal w-25 mt-6 ml-2"></div>
-                </div>
-                <div class="d-flex flex-row mx-0 mx-md-16">
-                    <v-tabs
-                        v-model="tab"
-                        direction="vertical"
-                    >
-                        <v-tab value="one" class="text-capitalize textStyle" color="#64FFDA">Open University</v-tab>
-                        <v-tab value="two" class="text-capitalize textStyle" color="#64FFDA">Aamra Companies</v-tab>
-                        <v-tab value="three" class="text-capitalize textStyle" color="#64FFDA">Edison Group</v-tab>
-                        <v-tab value="four" class="text-capitalize textStyle" color="#64FFDA">BdJobs.com Ltd</v-tab>
-                    </v-tabs>
+            <div class="my-16">  
+                <v-row>
+                    <v-col cols="12">
+                        <div class="d-flex justify-center mb-14">
+                            <div>
+                                <span class="numberStyle">02.</span> <span class="headerStyle text-md-h4 text-h4">Where I’ve Worked</span>
+                            </div>
+                            <div class="horizontal w-25 mt-6 ml-2"></div>
+                        </div>
+                        <div class="mx-0 mx-md-16" :style="$vuetify.display.mdAndUp?{display:'flex',flexDirection:'row'}:''">
+                            <v-tabs
+                                v-model="tab" 
+                                direction="vertical"                                          
+                            >
+                                <v-tab value="one" class="text-capitalize textStyle" color="#64FFDA">Open University</v-tab>
+                                <v-tab value="two" class="text-capitalize textStyle" color="#64FFDA">Aamra Companies</v-tab>
+                                <v-tab value="three" class="text-capitalize textStyle" color="#64FFDA">Edison Group</v-tab>
+                                <v-tab value="four" class="text-capitalize textStyle" color="#64FFDA">BdJobs.com Ltd</v-tab>
+                            </v-tabs>
                             
-                    <v-tabs-window v-model="tab">
-                        <v-tabs-window-item value="one">
-                            <v-sheet>
-                                <div class="ml-4 textStyleJobtitle">Programmer <a class="hrefStyle" href="https://bou.ac.bd/" target="_blank">@ Bangladesh Open University</a></div>
-                                <div class="ml-4 textStyle">Oct 2018 - Present</div>
-                                <v-list>
-                                    <v-list-item v-for="(item,i) in bouDescription" :key="i">
-                                        <template v-slot:prepend>
-                                            <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
-                                        </template>
-                                        <v-list-item class="textStyle">{{ item.detail }}</v-list-item>                                  
-                                    </v-list-item>
-                                </v-list>
-                            </v-sheet>
-                        </v-tabs-window-item>
+                            <v-tabs-window v-model="tab" class="mt-10 mt-md-0">
+                                <v-tabs-window-item value="one">
+                                    <!-- <v-sheet> -->
+                                        <v-card>
+                                            <v-card-text>
+                                                <div class="ml-4 textStyleJobtitle">Programmer <a class="hrefStyle" href="https://bou.ac.bd/" target="_blank">@ Bangladesh Open University</a></div>
+                                                <div class="ml-4 textStyle">Oct 2018 - Present</div>
+                                                <v-list>
+                                                    <v-list-item v-for="(item,i) in bouDescription" :key="i">
+                                                        <template v-slot:prepend>
+                                                            <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
+                                                        </template>
+                                                        <v-list-item class="textStyle">{{ item.detail }}</v-list-item>                                  
+                                                    </v-list-item>
+                                                </v-list>
+                                            </v-card-text>
+                                        </v-card>
+                                    <!-- </v-sheet> -->
+                                </v-tabs-window-item>
 
-                        <v-tabs-window-item value="two">
-                            <v-sheet>
-                                <div class="ml-4 textStyleJobtitle">Assistant Manager(IT) <a class="hrefStyle" href="https://www.aamra.com.bd/" target="_blank">@ Aamra Companies</a></div>
-                                <div class="ml-4 textStyle">Jan 2017 - Oct 2018</div>
-                                <v-list>
-                                    <v-list-item v-for="(item,i) in aamraDescription" :key="i">
-                                        <template v-slot:prepend>
-                                            <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
-                                        </template>
-                                        <v-list-item class="textStyle">{{ item.detail }}</v-list-item>
-                                    </v-list-item>
-                                </v-list>
-                            </v-sheet>
-                        </v-tabs-window-item>
+                                <v-tabs-window-item value="two">
+                                    <v-sheet>
+                                        <div class="ml-4 textStyleJobtitle">Assistant Manager(IT) <a class="hrefStyle" href="https://www.aamra.com.bd/" target="_blank">@ Aamra Companies</a></div>
+                                        <div class="ml-4 textStyle">Jan 2017 - Oct 2018</div>
+                                        <v-list>
+                                            <v-list-item v-for="(item,i) in aamraDescription" :key="i">
+                                                <template v-slot:prepend>
+                                                    <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
+                                                </template>
+                                                <v-list-item class="textStyle">{{ item.detail }}</v-list-item>
+                                            </v-list-item>
+                                        </v-list>
+                                    </v-sheet>
+                                </v-tabs-window-item>
 
-                        <v-tabs-window-item value="three">
-                            <v-sheet>
-                                <div class="ml-4 textStyleJobtitle">Executive(IT) <a class="hrefStyle" href="https://edison-bd.com/" target="_blank">@ Edison Group</a></div>
-                                <div class="ml-4 textStyle">May 2015 - Jan 2018</div>
-                                <v-list>
-                                    <v-list-item v-for="(item,i) in edisonDescription" :key="i">
-                                        <template v-slot:prepend>
-                                            <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
-                                        </template>
-                                        <v-list-item class="textStyle">{{ item.detail }}</v-list-item>
-                                    </v-list-item>
-                                </v-list>
-                            </v-sheet>
-                        </v-tabs-window-item>
-                        <v-tabs-window-item value="four">
-                            <v-sheet>
-                                <div class="ml-4 textStyleJobtitle">Jr. Software Engineer <a class="hrefStyle" href="https://www.bdjobs.com/" target="_blank">@ BdJobs.com Ltd</a></div>
-                                <div class="ml-4 textStyle">Sep 2014 - May 2015</div>
-                                <v-list>
-                                    <v-list-item v-for="(item,i) in bdJobsDescription" :key="i">
-                                        <template v-slot:prepend>
-                                            <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
-                                        </template>
-                                        <v-list-item class="textStyle">{{ item.detail }}</v-list-item>
-                                    </v-list-item>
-                                </v-list>
-                            </v-sheet>
-                        </v-tabs-window-item>
-                    </v-tabs-window>
-                </div> 
+                                <v-tabs-window-item value="three">
+                                    <v-sheet>
+                                        <div class="ml-4 textStyleJobtitle">Executive(IT) <a class="hrefStyle" href="https://edison-bd.com/" target="_blank">@ Edison Group</a></div>
+                                        <div class="ml-4 textStyle">May 2015 - Jan 2018</div>
+                                        <v-list>
+                                            <v-list-item v-for="(item,i) in edisonDescription" :key="i">
+                                                <template v-slot:prepend>
+                                                    <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
+                                                </template>
+                                                <v-list-item class="textStyle">{{ item.detail }}</v-list-item>
+                                            </v-list-item>
+                                        </v-list>
+                                    </v-sheet>
+                                </v-tabs-window-item>
+                                <v-tabs-window-item value="four">
+                                    <v-sheet>
+                                        <div class="ml-4 textStyleJobtitle">Jr. Software Engineer <a class="hrefStyle" href="https://www.bdjobs.com/" target="_blank">@ BdJobs.com Ltd</a></div>
+                                        <div class="ml-4 textStyle">Sep 2014 - May 2015</div>
+                                        <v-list>
+                                            <v-list-item v-for="(item,i) in bdJobsDescription" :key="i">
+                                                <template v-slot:prepend>
+                                                    <v-icon :icon="item.icon" size="x-small" color="#53D3B9"></v-icon>
+                                                </template>
+                                                <v-list-item class="textStyle">{{ item.detail }}</v-list-item>
+                                            </v-list-item>
+                                        </v-list>
+                                    </v-sheet>
+                                </v-tabs-window-item>
+                            </v-tabs-window>
+                        </div>
+                    </v-col>
+                </v-row>             
             </div>
         </v-sheet>
     </section>

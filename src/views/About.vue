@@ -9,7 +9,16 @@
             </div>      
             <v-container class="px-0">
                 <v-row>
-                    <v-col cols="12" md="6">
+                    <v-col cols="12" md="4">
+                        <v-img
+                        src="/home-img.jpg"
+                        class="mt-md-4 mx-md-0 w-100"
+                        cover
+                        rounded
+                        >                      
+                        </v-img>
+                    </v-col>
+                    <v-col cols="12" md="8">
                         <div class="textStyle mt-3">I am a seasoned software engineer with over a decade of experience in the industry, having embarked on my journey back in 2013. My technical expertise spans a diverse array of technologies and frameworks, reflecting my passion for continuous learning and adaptation in the ever-evolving field of software development.</div>
                         <div class="textStyle mt-3">I have successfully delivered numerous projects across various domains, demonstrating a strong ability to solve complex problems and create robust, scalable applications. My journey has equipped me with a deep understanding of software design principles, agile methodologies, and the latest industry trends.</div>
                         <div class="textStyle mt-3">I thrive in collaborative environments, leveraging my skills to drive innovation and efficiency. Whether working independently or as part of a team, my goal is to contribute to the development of high-quality software that meets user needs and exceeds expectations.</div>
@@ -22,7 +31,7 @@
                                             <template v-slot:prepend>
                                                 <v-icon :icon="language.icon" size="x-small" color="#53D3B9"></v-icon>
                                             </template>
-                                            <v-list-item class="textStyleList">{{ language.name }}</v-list-item>
+                                            <v-list-item-title class="textStyleList">{{ language.name }}</v-list-item-title>
                                         </v-list-item>
                                     </v-list>
                                 </v-col>
@@ -32,7 +41,7 @@
                                             <template v-slot:prepend>
                                                 <v-icon :icon="language.icon" size="x-small" color="#53D3B9"></v-icon>
                                             </template>
-                                            <v-list-item class="textStyleList">{{ language.name }}</v-list-item>
+                                            <v-list-item-title class="textStyleList">{{ language.name }}</v-list-item-title>
                                         </v-list-item>
                                     </v-list>
                                 </v-col>
@@ -48,15 +57,7 @@
                         >                      
                         </v-img>
                     </v-col> -->
-                    <v-col cols="12" md="6">
-                        <v-img
-                        src="/home-img.jpg"
-                        class="mt-md-4 mx-md-16"
-                        cover
-                        rounded
-                        >                      
-                        </v-img>
-                    </v-col>
+                    
                 </v-row>
             </v-container>
         </v-sheet>

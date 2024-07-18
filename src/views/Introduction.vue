@@ -6,7 +6,7 @@
                     <div class="my-md-10">
                         <div class="nameStyle">Hi, my name is</div>
                         <div class="devNameStyle text-h4 text-sm-h3 text-md-h2 mt-4">Sangib Kumar Saha.</div>
-                        <div class="devTitleStyle text-h4 text-sm-h3 text-md-h2 mt-2">I build things for the web.</div>
+                        <div class="devTitleStyle text-h4 text-sm-h3 text-md-h2 mt-4">I build things for the web.</div>
                         <div class="boxWidth mt-8 mt-md-4 w-auto">I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on blockchain based solutions using Ehtereum, Solidity, Node.Js & Vue.Js</div>
                         <v-btn variant="outlined" class="text-capitalize mt-14" height="50" width="280" color="#53D3B9" href="https://codecanyon.net/user/sangib_123saha/portfolio" target="_blank">Check out my envato profile !</v-btn>
                     </div>    
