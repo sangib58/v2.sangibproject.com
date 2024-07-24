@@ -20,9 +20,10 @@
                                     Revolutionize your assessment processes with our state-of-the-art Visual
                                     Assessment and Exam Management System(Assess Hour). 
                                     Built on the robust .NET Core framework & Vue.js, this 
-                                    innovative SaaS solution leverages webcam technology to 
+                                    innovative SaaS solution <span class="textColor"> leverages webcam technology </span>
+                                    to 
                                     monitor candidates and incorporates advanced features to 
-                                    ensure a secure and effective evaluation experience.This project
+                                    ensure a secure and effective evaluation experience .This project
                                     has some key features like Webcam-Based Visual Assessments,
                                     Multiple Question Formats and Answer Types,Mouse Pointer Monitoring,
                                     Subscription Plans,Question Shuffling,Secure Exam Window,Email Invitations,
@@ -74,7 +75,7 @@
                                     offers a plethora of features to streamline your assessment process 
                                     and enhance the learning experience for both administrators and participants.
                                     This is one of my most riviewed product on envato marketplace.Some features like 
-                                    Mouse Pointer Monitoring,Secure Exam Window,Email Invitations,
+                                    <span class="textColor">Mouse Pointer Monitoring,Secure Exam Window,Email Invitations,</span>
                                     Multilingual Support,Exam Instructions,Customizable Landing Page,
                                     Audit Logs make this product unique from others.
                                 </v-card-text>
@@ -111,7 +112,7 @@
                             <v-card color="#112240" flat>
                                 <!-- <v-card-title class="d-flex justify-end"><v-btn icon="mdi-open-in-new" href="https://sangibproject.com/" target="_blank"></v-btn></v-card-title> -->
                                 <v-card-text class="projectDetail">
-                                    This is a QR code based certificate verification system leverages the 
+                                    This is a <span class="textColor">QR code based certificate verification</span> system leverages the 
                                     decentralized and immutable nature of blockchain technology to ensure 
                                     the authenticity and integrity of certificates. Here are the key features of such a system:
                                     Immutable Records,Decentralization,Anyone can verify the authenticity of a certificate by checking it against the blockchain,

@@ -120,6 +120,7 @@ export default {
             bdJobsDescription:[
                 {icon:'mdi-arrow-right-top',detail:'Developed a vehicle management software for the employees of BD jobs.com Ltd.'},
                 {icon:'mdi-arrow-right-top',detail:'Developed customer review section of bdjobs.com website.'},
+                {icon:'mdi-arrow-right-top',detail:'Developed an meeting management software to manage internal meeting.'},
                 {icon:'mdi-arrow-right-top',detail:'Provide technical supports of bdjobs website.'},
             ],
         }

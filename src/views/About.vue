@@ -27,17 +27,17 @@
                             <v-row>
                                 <v-col>
                                     <v-list>
-                                        <v-list-item v-for="language in languagesListOne" :key="language.name">
+                                        <v-list-item v-for="language in languagesListOne" :key="language.name" class="px-0">
                                             <template v-slot:prepend>
                                                 <v-icon :icon="language.icon" size="x-small" color="#53D3B9"></v-icon>
                                             </template>
-                                            <v-list-item-title class="textStyleList">{{ language.name }}</v-list-item-title>
+                                            <v-list-item-title class="textStyleList mx-0 px-0">{{ language.name }}</v-list-item-title>
                                         </v-list-item>
                                     </v-list>
                                 </v-col>
                                 <v-col>
                                     <v-list>
-                                        <v-list-item v-for="language in languagesListTwo" :key="language.name">
+                                        <v-list-item v-for="language in languagesListTwo" :key="language.name" class="px-0">
                                             <template v-slot:prepend>
                                                 <v-icon :icon="language.icon" size="x-small" color="#53D3B9"></v-icon>
                                             </template>
@@ -47,17 +47,7 @@
                                 </v-col>
                             </v-row>
                         </div>
-                    </v-col>
-                    <!-- <v-col cols="12" md="6">
-                        <v-img
-                        src="/home-img.jpg"
-                        height="242"
-                        width="300"
-                        rounded
-                        >                      
-                        </v-img>
-                    </v-col> -->
-                    
+                    </v-col>                 
                 </v-row>
             </v-container>
         </v-sheet>
@@ -88,11 +78,6 @@ export default {
 </script>
 
 <style scoped>
-/* .aboutSpacing{
-    margin-top: 90px;
-    margin-left: 120px;
-    margin-bottom: 0px;
-} */
 .numberStyle{
     color: #64FFDA;
     font-size: 25px;
@@ -100,24 +85,16 @@ export default {
     padding-right: 8px;
 }
 .headerStyle{
-    /* font-size: 30px;
-    margin-bottom: 20px; */
     font-weight: 600;
     color: #CCD6F6;  
 }
 .horizontal{
     border-top: 1px solid #8892B0;
-    /* width:335px;
-    margin-top: 23px;
-    margin-left: 10px;
-    margin-bottom: 0px; */
-    
 }
 .textStyle{
     font-weight: 400;
     font-size: 17px;
     color: #8892B0;
-    /* margin-top: 15px; */
 }
 .textStyleList{
     font-weight: 400;

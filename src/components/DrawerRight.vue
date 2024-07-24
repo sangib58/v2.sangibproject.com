@@ -13,7 +13,7 @@
         text-decoration: none;
         writing-mode: vertical-lr;
         margin-left: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-weight: 400;
         color: #8892B0;
     }
@@ -22,7 +22,7 @@
     }
     .vertical{
         border-left: 1px solid #8892B0;
-        height: 200px;
+        height: 210px;
         margin-left: 27px;
     }
 </style>

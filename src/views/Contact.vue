@@ -6,7 +6,7 @@
                 <div class="touchStyle text-md-h2 text-h3 mt-6">Get In Touch</div>
                 <div class="boxSize w-100 mt-8">My inbox is always open. 
                     Whether you have a question or a project idea or may be looking for a 
-                    experienced developer, just want to say hi, I’ll try my best to get back to you!
+                    experienced developer or just want to say hi, I’ll try my best to get back to you!
                     Let's connect and build some thing worth.
                 </div>
                 <v-btn variant="outlined" href="mailto:sangibruse@gmail.com" target="_blank" class="text-capitalize my-16" color="#53D3B9" width="150" height="50">Say Hello</v-btn>
