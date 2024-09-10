@@ -16,7 +16,7 @@
                 <v-btn variant="text" class="text-capitalize" :href="this.experienceUrl"><span class="numberStyle">02.</span> <span class="textStyle">Experience</span></v-btn>
                 <v-btn variant="text" class="text-capitalize" :href="this.workUrl"><span class="numberStyle">03.</span> <span class="textStyle">Work</span></v-btn>
                 <v-btn variant="text" class="text-capitalize" :href="this.contactUrl"><span class="numberStyle">04.</span> <span class="textStyle">Contact</span></v-btn>
-                <v-btn variant="outlined" class="text-capitalize" color="#53D3B9">Resume</v-btn>
+                <v-btn variant="outlined" class="text-capitalize" :href="this.resumeUrl" color="#53D3B9" target="_blank">Resume</v-btn>
             </div>  
             <div v-else>
                 <v-app-bar-nav-icon color="#64FFDA" variant="text" @click.stop="drawer = !drawer">
@@ -48,7 +48,7 @@
         </div>
         <div class="my-4">
             <div class="d-flex justify-center">
-                <v-btn variant="outlined" class="text-capitalize" color="#53D3B9">Resume</v-btn>
+                <v-btn variant="outlined" class="text-capitalize" :href="this.resumeUrl" color="#53D3B9" target="_blank">Resume</v-btn>
             </div>      
         </div>
         <div class="d-flex justify-center">
@@ -85,6 +85,7 @@ export default {
             workUrl:window.location.origin+'/#work',
             experienceUrl:window.location.origin+'/#experience',
             contactUrl:window.location.origin+'/#contact',
+            resumeUrl:window.location.origin+'/img/Sangib-Resume.pdf'
         }
     },
     watch: {

@@ -90,7 +90,7 @@
                      color="#112240" 
                      elevation="10"                                        
                     >
-                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/BERN-Todo" target="_blank"></v-btn></v-card-title>
                         <v-card-title class="projectTitle">BERN</v-card-title>
                         <v-card-text class="projectDetail">
                             A blockchain based Todo App to cover basic features & best practices. 
@@ -103,7 +103,7 @@
                      color="#112240" 
                      elevation="10"                                        
                     >
-                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/Blockchain-workflow" target="_blank"></v-btn></v-card-title>
                         <v-card-title class="projectTitle">Workflow</v-card-title>
                         <v-card-text class="projectDetail">
                             A test project to describe workflow of a decentralized application. 
@@ -116,7 +116,7 @@
                      color="#112240" 
                      elevation="10"                                        
                     >
-                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/Lara-Admin" target="_blank"></v-btn></v-card-title>
                         <v-card-title class="projectTitle">LAdmin</v-card-title>
                         <v-card-text class="projectDetail">
                             An admin template build on top of laravel 8 & vue.js.
@@ -137,6 +137,101 @@
                             Repository class for .NET to perform SQL Server operations
                         </v-card-text>
                         <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">.Net</span><span class="mr-2">C#</span><span>DLL</span></v-card-text>
+                    </v-card>
+                </v-col>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/React-Job-Post" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">React Job Post</v-card-title>
+                        <v-card-text class="projectDetail">
+                            This is a test project for demo job posting build on react, tailwind css & json server.
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">React</span><span class="mr-2">Tailwind</span><span>Router v6</span></v-card-text>
+                    </v-card>
+                </v-col>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/React-Sidebar" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">React Sidebar</v-card-title>
+                        <v-card-text class="projectDetail">
+                            A sidebar of a web site build on react & tailwind.
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">React</span><span class="mr-2">Tailwind</span><span>Router v6</span></v-card-text>
+                    </v-card>
+                </v-col>
+            </v-row>
+            <v-row>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/Sidebar-Tailwind" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">Tailwind Sidebar</v-card-title>
+                        <v-card-text class="projectDetail">
+                            A plug and play web site sidebar build on top of Tailwind css.
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">Tailwind CSS</span><span class="mr-2">HTML 5</span></v-card-text>
+                    </v-card>
+                </v-col>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/React-Router-Test" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">React Router Test</v-card-title>
+                        <v-card-text class="projectDetail">
+                            A react router v6 crash project for in depth understanding. 
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">React</span><span class="mr-2">Tailwind</span><span>Router v6</span></v-card-text>
+                    </v-card>
+                </v-col>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/Tailwind-Manage-Landing-Page" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">Tailwind Product Landing Page</v-card-title>
+                        <v-card-text class="projectDetail">
+                            A beautiful product Landing page build on tailwind css.
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">Tailwind</span><span>HTML 5</span></v-card-text>
+                    </v-card>
+                </v-col>
+            </v-row>
+            <v-row>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/Mongo-Node-Book-Listing" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">Book Listing</v-card-title>
+                        <v-card-text class="projectDetail">
+                            A book listing app to test mongo db, node js & express js 
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">Mongo DB</span><span class="mr-2">Node Js</span><span>Express Js</span></v-card-text>
+                    </v-card>
+                </v-col>
+                <v-col cols="12" md="4">
+                    <v-card
+                     color="#112240" 
+                     elevation="10"                                        
+                    >
+                        <v-card-title class="d-flex justify-space-between px-0"> <v-btn variant="text" icon="mdi-github" href="https://github.com/sangib58/Admin-Dashboard-React" target="_blank"></v-btn></v-card-title>
+                        <v-card-title class="projectTitle">React Admin Dashboard</v-card-title>
+                        <v-card-text class="projectDetail">
+                            A demo dashboard project on react & tailwind css
+                        </v-card-text>
+                        <v-card-text class="d-flex justify-start projectDetail"><span class="mr-2">React</span><span>Tailwind CSS</span></v-card-text>
                     </v-card>
                 </v-col>
             </v-row>
